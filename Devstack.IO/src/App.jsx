@@ -12,7 +12,7 @@ const App = () => {
      <Hero />
      <TechnologyGrid />
      <Footer />
-     <ToastContainer position="top-right" />
+     <ToastContainer position="top-right" autoClose={1500} />
     </div>
   );
 };
